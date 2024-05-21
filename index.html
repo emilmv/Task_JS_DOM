@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="firstBox">
+        <input id="firstInput" type="number" placeholder="Number-1" />
+      </div>
+      <div class="secondBox">
+        <input id="secondInput" type="number" placeholder="Number-2" />
+      </div>
+    </div>
+    <div class="operators">
+      <button id="addition">
+        <input id="additionButton" type="submit" value="Toplama( + )" />
+      </button>
+      <button id="subtraction">
+        <input id="subtractionButton" type="submit" value="Çıxma( - )" />
+      </button>
+      <button id="multiplication">
+        <input id="multiplicationButton" type="submit" value="Vurma( * )" />
+      </button>
+      <button id="division">
+        <input id="divisionButton" type="submit" value="Bölmə( / )" />
+      </button>
+      </div>
+      <div class="outputBox">
+        <p id="description"></p>
+        <input id="output" type="number" placeholder="Nəticə" readonly>
+      </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    height: 30%;
+}
+#firstInput, #secondInput{
+    width: 300px;
+    text-align: center;
+}
+button{
+    display: flex;
+    background: none;
+    border: none;
+}
+.operators{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+input{
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    outline: none;
+}
+#additionButton{
+    background-color: #1F618D;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+#subtractionButton{
+    background-color: #922B21;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+#multiplicationButton{
+    background-color: #196F3D;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+#divisionButton{
+    background-color: #B7950B;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+#additionButton:hover{
+    background-color: #154360;
+    cursor: pointer;
+}
+#subtractionButton:hover{
+    background-color: #641E16;
+    cursor: pointer;
+}
+#multiplicationButton:hover{
+    background-color: #0E3B25;
+    cursor: pointer;
+}
+#divisionButton:hover{
+    background-color: #7E6E00;
+    cursor: pointer;
+}
+.outputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.outputBox input{
+    width: 170px;
+    padding-left: 15px;
+    text-align: center;
+}
+p{
+    padding-right: 5px;
+}
+.display-none{
+    display: none;;
+}
